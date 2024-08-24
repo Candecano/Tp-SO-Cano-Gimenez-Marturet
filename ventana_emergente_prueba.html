@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .Bakery-menu {
+            position: relative;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .Bakery-menu a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .Bakery-menu a:focus+.product-info {
+            display: block;
+        }
+
+        .product-info {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            padding: 15px;
+            background-color: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+        <img src="https://thekababjeesbakers.com/wp-content/uploads/2020/02/157-300x300.jpg" alt="" class="container-fluid">
+        <h3>Cake Rusk</h3>
+        <h6>$5.00<span id="Weight"> Per Kg</span></h6>
+        <a href="#">Order</a>
+        <div class="product-info">
+            <h4>Product Details</h4>
+            <p>Delicious and crispy Cake Rusk made with the finest ingredients.</p>
+        </div>
+    </div>
+
+    <!-- Repite el código para cada producto -->
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+        <img src="https://thekababjeesbakers.com/wp-content/uploads/2021/03/26-300x300.jpg" alt="" class="container-fluid">
+        <h3>Carmel Crunch cake</h3>
+        <h6>$20.00<span id="Weight"> 2.5 Pound</span></h6>
+        <a href="#">Order</a>
+        <div class="product-info">
+            <h4>Product Details</h4>
+            <p>A rich and creamy caramel crunch cake perfect for any occasion.</p>
+        </div>
+    </div>
+
+    <!-- Añade más productos de la misma manera -->
+    
+</body>
+
+</html>
+
