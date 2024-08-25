@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="flickity.css">
     <link rel="stylesheet" href="media.css">
-    <title>SM Bakers</title>
+    <title>TP-n°1-So</title>
 </head>
 
 <body>
@@ -36,17 +36,10 @@
                     <a href="#Navbar-Menu-Id" class="navicon">Home</a>
                     <a href="#Second-sec-id" class="navicon">About Us</a>
                     <a href="#menu-id" class="navicon">Menu</a>
-                    <a href="#Gallery-Id" class="navicon">Gallery</a>
-                    <a href="#Feedback" class="navicon">Feedback</a>
+                    <a href="#Feedback" class="navicon">Encuesta</a>
                     <a href="#footerid" class="navicon">Contact</a>
                     <i class="fas fa-times-circle" id="cross" onclick="Hidemenu()"></i>
 
-                    <div class="social">
-                        <li id="Border"></li>
-                        <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
-                        <a href="https://instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
-                        <a href="C:\Users\acs\Desktop\new\sweet.html" id="Sweet-Bakery">Sweet Bakery</a>
                     </div>
                 </nav>
             </div>
@@ -56,10 +49,16 @@
                 <div class="line" onclick="Togglebar()"></div>
             </div>
         </div>
-        <div class="heading" >
-            <h2>Tipos de Sistemas Operativos</h2>
-            <p>Candela Cano Gimenez-Carla Marturet </p>
-        
+        <div class="heading" > 
+            <div class="content-container">
+                <img src="SO2.JPG" alt="Imagen descriptiva" class="image">
+                <div class="text-content">
+                    <h2>Trabajo Práctico N°1</h2>
+                    <p>Candela Josefina Cano Gimenez-Carla Valentina Marturet Ojeda</p>
+                </div>
+            </div>
+            
+            
         </div>
         <div class="Scroll-Arrow" id="topbutton">
             <a href="#"><i class="fal fa-arrow-up"></i></a>
@@ -74,9 +73,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 mx-auto second-sec">
                     <h2><span id="Welcome">¿Qué es un</span> Sistema Operativo?</h2>
-                    
-                    <p>Es un programa o software que controla la ejecución de aplicaciones y programas, actúa como interfaz entre las aplicaciones y el hardware de la computadora.
-                    </p>
+                    <p>Es un programa o software que controla la ejecución de aplicaciones y programas, actúa como interfaz entre las aplicaciones y el hardware de la computadora.</p>
                     
                 </div>
             </div>
@@ -186,50 +183,47 @@
         </div>
     </section>
 
-    <section class="Gallery" id="Gallery-Id">
-        <h1>Gallery</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro maiores illo numquam, distinctio exercitationem reiciendis!</p>
 
-        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
-           
-            <div class="carousel-cell">
-            <img src="https://images.unsplash.com/photo-1605807646983-377bc5a76493?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80">
-            <a href="#">Ice Cake</a>
-           
-            </div>
-           
-            <div class="carousel-cell">
-            <img src="https://media.istockphoto.com/photos/indian-sweets-in-a-plate-includes-gulab-jamun-rasgulla-kaju-katli-picture-id1054228718?k=20&m=1054228718&s=612x612&w=0&h=OFcioOdcbacinr2F7M0hULoAr3egWnU_BIt5XLmznf0=">
-                <a href="#">Sweets</a>
-              
-            </div>
-           
-            <div class="carousel-cell">
-            <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29va3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80">
-                <a href="#">Biscuits</a>
-               
-            </div>
-           
-            <div class="carousel-cell">
-            <img src="https://w0.peakpx.com/wallpaper/754/603/HD-wallpaper-chocolate-ice-cream-close-up-sweets-ice-cream-balls-ice-cream.jpg">
-                <a href="#">Ice Cream</a>
-               
-            </div>
-            <div class="carousel-cell">
-            <img src="https://c4.wallpaperflare.com/wallpaper/317/423/666/chocolate-4k-hd-pc-download-wallpaper-preview.jpg">
-                <a href="#">Chocolate</a>
-               
-            </div>
-        </div>
-</section>
 
 <section class="Feedback" id="Feedback">
-    <h1>Feedback</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, distinctio!</p>
+    <h1>¿Cúanto sabes de Sistemas Operativos?</h1>
+    <p>¡Probá tu conocimiento sobre los Sistemas Operativos y sus tipos!</p>
     <div class="feedback-background">
             <div class="center-heading">
-            <p>Have feedback about our products or service<br> Please contact Baker's Kitchen directly</p>
-            <a href="C:\Users\acs\Desktop\new\feedback.html">Send Feedback Now</a>   
+                <div class="pregresp">
+                    <div class="pregunta">1.¿Qué tipo de sistema operativo es utilizado comúnmente en computadoras grandes que procesan grandes cantidades de datos?<br />
+                    </div>
+                    <div class="respuestas">
+                      <input type="radio" name="preg1" value="1" /> Sistema operativo de computadoras personales<br />
+                      <input type="radio" name="preg1" value="2" /> Sistema operativo de tarjetas inteligentes<br />
+                      <input type="radio" name="preg1" value="3" /> Sistema operativo de mainframe<br />
+                    </div>
+                  </div> 
+                  <div class="pregresp2">
+                    <div class="pregunta">2. ¿Cuál de los siguientes sistemas operativos es conocido por ser de código abierto y permite la modificación y distribución libre?<br />
+                    </div>
+                    <div class="respuestas">
+                      <input type="radio" name="preg1" value="1" />  Windows<br />
+                      <input type="radio" name="preg1" value="2" /> Linux<br />
+                      <input type="radio" name="preg1" value="3" /> Android<br />
+                    </div>
+                  </div> 
+
+                  <div class="pregresp3">
+                    <div class="pregunta">3. ¿Qué tipo de sistema operativo se utiliza en dispositivos como microondas y televisores?<br />
+                    </div>
+                    <div class="respuestas">
+                      <input type="radio" name="preg1" value="1" /> Sistema operativo integrado<br />
+                      <input type="radio" name="preg1" value="2" /> Sistema operativo de computadoras personales<br />
+                      <input type="radio" name="preg1" value="3" /> Sistema operativo de nodos sensores<br />
+                    </div>
+                  </div> 
+
+
+
+
+
+
             </div> 
     </div>
 </section>

@@ -7,7 +7,7 @@
 .Navbar-Menu{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('images/back.jpg');
+    background-image: linear-gradient(rgba(0, 136, 226, 0.411),rgba(67, 154, 236, 0.2)),url('images/back.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -75,7 +75,7 @@
 }
 #cross{
     font-size: 23px;
-   color: #fff;
+   color: #000000;
     position: absolute;
     top: 25px;
     left: 25px;
@@ -110,17 +110,17 @@
 }
 .heading h2{
     font-size: 50px;
-    color: #fff;
-    background-color: rgba(0,0,0,0.2);
+    color: #ffffff;
+    background-color: rgba(77, 166, 226, 0.2);
 }
 .heading p{
     font-size: 14px;
     padding-bottom: 25px;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 .heading a{
     padding: 15px 30px;
-    background-color: #c37a3e;
+    background-color: #3ea4c3f3;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -196,7 +196,7 @@
     text-align: left;
     font-size: 35px;
     padding-bottom: 20px;
-    border-bottom: 2px solid #c37a3e;
+    border-bottom: 2px solid #53d4fc;
     display: inline-block; 
 }
 .second-Sec a{
@@ -218,7 +218,7 @@
     width: 100%;
     height: auto;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: rgba(138, 209, 231, 0.473);
     padding: 100px 0;
 }
 .MenuSection img{
@@ -228,7 +228,7 @@
 .MenuSection h1{
     font-size: 35px;
     padding-bottom: 20px;
-    border-bottom: 2px solid #c37a3e;
+    border-bottom: 2px solid #3e8ec3;
     display: inline-block;
 }
 .MenuSection p{
@@ -242,7 +242,7 @@
 .Bakery-menu h3{
     padding: 10px 20px;
     font-size: 18px;
-    color: #c37a3e;
+    color: #051314;
     text-align: left;
     font-weight: bold;
 }
@@ -261,68 +261,25 @@
     float: right;
     margin-right: 30px;
     padding: 5px 13px;
-    background-color: #c37a3e;
-    color: #fff;
+    background-color: #3ea4c3;
+    color: #fffafa;
     text-decoration: none;
     border-radius: 5px;
     transition: 0.5s;
 }
 .Bakery-menu a:hover{
-    background-color: #7c4a21;
+    background-color: #4bd2d68c;
 }
 
+    
+    .pregunta {
+    color: #7DA5E0;
+    }
+    
+    .respuestas {
+    color: #000000;
+    }
 
-.Gallery{
-    width: 100%;
-    height: auto;
-    padding: 50px 0;
-    text-align: center;
-    background-color: #ffae6b13
-}
-.Gallery img{
-    width: 350px;
-    height: 400px;
-    margin: 1px;
-    transition: 0.8s;
-}
-.Gallery h1{
-    font-size: 35px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #c37a3e;
-    display: inline-block;
-}
-.Gallery p{
-    font-size: 18px;
-    color: rgba(0,0,0,0.6);
-    padding: 25px 0;   
-}
-.carousel-cell{
-    width: 340px;
-    height: 400px;
-    overflow: hidden;
-    margin: 0px;
-}
-.Gallery a{
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: bold;
-    font-style: italic;
-    position: relative;
-    top: -60px;
-    color: #fff;
-    padding: 5px 13px;
-    border: 2px solid #7c4a21;
-    background-color: transparent;
-    transition: 0.4s;
-    border-radius: 5px;
-}
-.Gallery a:hover{
-    background-color: #c37a3e;
-    border: none;
-}
-.Gallery img:hover{
-    transform: scale(1.01);
-}
 
 .Feedback{
     width: 100%;
@@ -334,7 +291,7 @@
 .Feedback h1{
     font-size: 35px;
     padding-bottom: 20px;
-    border-bottom: 2px solid #c37a3e;
+    border-bottom: 2px solid #3e87c3;
     display: inline-block;
 } 
 .Feedback p{
@@ -345,7 +302,7 @@
 .feedback-background{
     width: 100%;
     height: 60vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://media.istockphoto.com/photos/homemade-sweet-chocolate-cupcakes-picture-id615286712?k=20&m=615286712&s=612x612&w=0&h=YQkiXhBHecMn1Oi2228WL0KmVC9KHCTriP8vB49OGHk=');
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(SO3.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-size:cover;
@@ -424,3 +381,78 @@
     color: #c37a3e;
     font-weight: bold;
 }
+
+.content-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos en el contenedor flex */
+}
+
+.image {
+    width: 350px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+    margin-right: 200px; /* Espacio entre la imagen y el texto */
+}
+
+.text-content {
+    flex: 1; /* Permite que el contenido de texto ocupe el espacio restante */
+}
+
+.text-content h2,
+.text-content p {
+    margin: 0; /* Asegura que no haya márgenes adicionales que afecten la alineación */
+}
+
+
+
+.pregresp {
+    border: 1px solid #f8faff;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    }
+    
+    .pregunta {
+    color: #ffffff;
+    }
+    
+    .respuestas {
+    color: #ffffff;
+    }
+
+
+    .pregresp2 {
+        border: 1px solid #fdfafa;
+        padding: 10px;
+        margin: 10px;
+        font-family: Arial, Verdana, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        }
+        
+        .pregunta {
+        color: #fcfdff;
+        }
+        
+        .respuestas {
+        color: #ffffff;
+        }
+
+        .pregresp3 {
+            border: 1px solid #ffffff;
+            padding: 10px;
+            margin: 10px;
+            font-family: Arial, Verdana, Helvetica, sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            }
+            
+            .pregunta {
+            color: #ffffff;
+            }
+            
+            .respuestas {
+            color: #ffffff;
+            }
+

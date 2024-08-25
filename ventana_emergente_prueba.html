@@ -4,72 +4,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .Bakery-menu {
-            position: relative;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .Bakery-menu a {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px 20px;
-            background-color: #ff6600;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        .Bakery-menu a:focus+.product-info {
-            display: block;
-        }
-
-        .product-info {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 200px;
-            padding: 15px;
-            background-color: white;
-            border: 1px solid #ddd;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            z-index: 10;
-            text-align: left;
-        }
-    </style>
+    <title>Bakery Menu</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
-        <img src="https://thekababjeesbakers.com/wp-content/uploads/2020/02/157-300x300.jpg" alt="" class="container-fluid">
-        <h3>Cake Rusk</h3>
-        <h6>$5.00<span id="Weight"> Per Kg</span></h6>
-        <a href="#">Order</a>
-        <div class="product-info">
-            <h4>Product Details</h4>
-            <p>Delicious and crispy Cake Rusk made with the finest ingredients.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                <img src="https://thekababjeesbakers.com/wp-content/uploads/2020/02/157-300x300.jpg" alt=""
+                    class="container-fluid">
+                <h3>Cake Rusk</h3>
+                <h6>$5.00<span id="Weight"> Per Kg</span></h6>
+                <a href="#">Order</a>
+                <div class="product-info">
+                    <h4>Product Details</h4>
+                    <p>Delicious and crispy Cake Rusk made with the finest ingredients.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                <img src="https://thekababjeesbakers.com/wp-content/uploads/2021/03/26-300x300.jpg" alt=""
+                    class="container-fluid">
+                <h3>Carmel Crunch cake</h3>
+                <h6>$20.00<span id="Weight"> 2.5 Pound</span></h6>
+                <a href="#">Order</a>
+                <div class="product-info">
+                    <h4>Product Details</h4>
+                    <p>A rich and creamy caramel crunch cake perfect for any occasion.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                <img src="https://thekababjeesbakers.com/wp-content/uploads/2021/03/191-300x300.jpg" alt=""
+                    class="container-fluid">
+                <h3>Chewy Fudgy Brownie Cake Bucket</h3>
+                <h6>$5.00<span id="Weight">Per Bucket</span></h6>
+                <a href="#">Order</a>
+                <div class="product-info">
+                    <h4>Product Details</h4>
+                    <p>Rich and fudgy brownie cake in a convenient bucket.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                <img src="https://thekababjeesbakers.com/wp-content/uploads/2020/02/161-300x300.jpg" alt=""
+                    class="container-fluid">
+                <h3>Chocolate and Wallnut Biscuits</h3>
+                <h6>$35.00<span id="Weight">Per Kg</span></h6>
+                <a href="#">Order</a>
+                <div class="product-info">
+                    <h4>Product Details</h4>
+                    <p>Crunchy biscuits with a perfect blend of chocolate and walnuts.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                <img src="https://thekababjeesbakers.com/wp-content/uploads/2021/03/62-300x300.jpg" alt=""
+                    class="container-fluid">
+                <h3>Julab Jaman (Brown)</h3>
+                <h6>$8.00<span id="Weight"> Per Kg</span></h6>
+                <a href="#">Order</a>
+                <div class="product-info">
+                    <h4>Product Details</h4>
+                    <p>Soft and sweet Julab Jaman, perfect for dessert.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                <img src="https://thekababjeesbakers.com/wp-content/uploads/2020/10/187-300x300.jpg" alt=""
+                    class="container-fluid">
+                <h3>KitKat $ MnM Molten Dessert Box</h3>
+                <h6>$5.00<span id="Weight"> Per Box</span></h6>
+                <a href="#">Order</a>
+                <div class="product-info">
+                    <h4>Product Details</h4>
+                    <p>A decadent dessert box filled with KitKat and MnM goodies.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                <img src=" https://thekababjeesbakers.com/wp-content/uploads/2020/03/8-300x300.jpg" alt=""
+                    class="container-fluid">
+                <h3>Milky Malt cake</h3>
+                <h6>$15.00<span id="Weight"> 2.5 Pound</span></h6>
+                <a href="#">Order</a>
+                <div class="product-info">
+                    <h4>Product Details</h4>
+                    <p>Rich and creamy milky malt cake, perfect for celebrations.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                <img src="https://thekababjeesbakers.com/wp-content/uploads/2020/03/144-300x300.jpg" alt=""
+                    class="container-fluid">
+                <h3>Mix Nimco</h3>
+                <h6>$2.00<span id="Weight"> Per Pack</span></h6>
+                <a href="#">Order</a>
+                <div class="product-info">
+                    <h4>Product Details</h4>
+                    <p>Deliciously spicy and crunchy mix nimco.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                <img src="https://images.unsplash.com/photo-1584796101179-52cfea2e6f52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bG9hZiUyMG9mJTIwYnJlYWR8ZW58MHx8MHx8&w=1000&q=80" alt=""
+                    class="container-fluid">
+                <h3>Fresh Bread</h3>
+                <h6>$2.00<span id="Weight"> Per Pack</span></h6>
+                <a href="#">Order</a>
+                <div class="product-info">
+                    <h4>Product Details</h4>
+                    <p>Freshly baked bread with a soft and fluffy texture.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                <img src="https://s.marketwatch.com/public/resources/images/MW-BS913_butter_MG_20140120151235.jpg" alt=""
+                    class="container-fluid">
+                <h3>Pure Butter</h3>
+                <h6>$50.00<span id="Weight"> Per Kg</span></h6>
+                <a href="#">Order</a>
+                <div class="product-info">
+                    <h4>Product Details</h4>
+                    <p>Pure and creamy butter, perfect for cooking and baking.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                <img src=" https://cdn.britannica.com/94/151894-050-F72A5317/Brown-eggs.jpg" alt=""
+                    class="container-fluid">
+                <h3>Desi Eggs</h3>
+                <h6>$4.00<span id="Weight"> per Dozen</span></h6>
+                <a href="#">Order</a>
+                <div class="product-info">
+                    <h4>Product Details</h4>
+                    <p>Farm-fresh desi eggs, perfect for breakfast and baking.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                <img src="https://c4.wallpaperflare.com/wallpaper/319/276/863/cheese-milk-cheese-milk-wallpaper-preview.jpg" alt="" class="container-fluid">
+                <h3>Organic Milk</h3>
+                <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                <a href="#">Order</a>
+                <div class="product-info">
+                    <h4>Product Details</h4>
+                    <p>Fresh and organic milk, sourced from grass-fed cows.</p>
+                </div>
+            </div>
         </div>
     </div>
-
-    <!-- Repite el código para cada producto -->
-
-    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
-        <img src="https://thekababjeesbakers.com/wp-content/uploads/2021/03/26-300x300.jpg" alt="" class="container-fluid">
-        <h3>Carmel Crunch cake</h3>
-        <h6>$20.00<span id="Weight"> 2.5 Pound</span></h6>
-        <a href="#">Order</a>
-        <div class="product-info">
-            <h4>Product Details</h4>
-            <p>A rich and creamy caramel crunch cake perfect for any occasion.</p>
-        </div>
-    </div>
-
-    <!-- Añade más productos de la misma manera -->
-    
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        .feedback {
+            display: none; /* Ocultar feedback por defecto */
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .feedback.correct {
+            color: green;
+        }
+        .feedback.incorrect {
+            color: red;
+        }
+
+        /* Mostrar feedback para la primera pregunta */
+        #preg1_op3:checked ~ .feedback1 .feedback.correct {
+            display: block;
+        }
+        #preg1_op1:checked ~ .feedback1 .feedback.incorrect,
+        #preg1_op2:checked ~ .feedback1 .feedback.incorrect {
+            display: block;
+        }
+
+        /* Mostrar feedback para la segunda pregunta */
+        #preg2_op2:checked ~ .feedback2 .feedback.correct {
+            display: block;
+        }
+        #preg2_op1:checked ~ .feedback2 .feedback.incorrect,
+        #preg2_op3:checked ~ .feedback2 .feedback.incorrect {
+            display: block;
+        }
+
+        /* Mostrar feedback para la tercera pregunta */
+        #preg3_op1:checked ~ .feedback3 .feedback.correct {
+            display: block;
+        }
+        #preg3_op2:checked ~ .feedback3 .feedback.incorrect,
+        #preg3_op3:checked ~ .feedback3 .feedback.incorrect {
+            display: block;
+        }
+
+        .pregresp, .pregresp2, .pregresp3 {
+            margin-bottom: 20px;
+        }
+        .respuestas input {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="pregresp">
+            <div class="pregunta">1. ¿Qué tipo de sistema operativo es utilizado comúnmente en computadoras grandes que procesan grandes cantidades de datos?<br /></div>
+            <div class="respuestas">
+                <input type="radio" id="preg1_op1" name="preg1" value="1" /> <label for="preg1_op1">Sistema operativo de computadoras personales</label><br />
+                <input type="radio" id="preg1_op2" name="preg1" value="2" /> <label for="preg1_op2">Sistema operativo de tarjetas inteligentes</label><br />
+                <input type="radio" id="preg1_op3" name="preg1" value="3" /> <label for="preg1_op3">Sistema operativo de mainframe</label><br />
+            </div>
+            <div class="feedback feedback1">
+                <div class="feedback correct">Correcto! La respuesta correcta es: Sistema operativo de mainframe</div>
+                <div class="feedback incorrect">Incorrecto. La respuesta correcta es: Sistema operativo de mainframe</div>
+            </div>
+        </div> 
+
+        <div class="pregresp2">
+            <div class="pregunta">2. ¿Cuál de los siguientes sistemas operativos es conocido por ser de código abierto y permite la modificación y distribución libre?<br /></div>
+            <div class="respuestas">
+                <input type="radio" id="preg2_op1" name="preg2" value="1" /> <label for="preg2_op1">Windows</label><br />
+                <input type="radio" id="preg2_op2" name="preg2" value="2" /> <label for="preg2_op2">Linux</label><br />
+                <input type="radio" id="preg2_op3" name="preg2" value="3" /> <label for="preg2_op3">Android</label><br />
+            </div>
+            <div class="feedback feedback2">
+                <div class="feedback correct">Correcto! La respuesta correcta es: Linux</div>
+                <div class="feedback incorrect">Incorrecto. La respuesta correcta es: Linux</div>
+            </div>
+        </div> 
+
+        <div class="pregresp3">
+            <div class="pregunta">3. ¿Qué tipo de sistema operativo se utiliza en dispositivos como microondas y televisores?<br /></div>
+            <div class="respuestas">
+                <input type="radio" id="preg3_op1" name="preg3" value="1" /> <label for="preg3_op1">Sistema operativo integrado</label><br />
+                <input type="radio" id="preg3_op2" name="preg3" value="2" /> <label for="preg3_op2">Sistema operativo de computadoras personales</label><br />
+                <input type="radio" id="preg3_op3" name="preg3" value="3" /> <label for="preg3_op3">Sistema operativo de nodos sensores</label><br />
+            </div>
+            <div class="feedback feedback3">
+                <div class="feedback correct">Correcto! La respuesta correcta es: Sistema operativo integrado</div>
+                <div class="feedback incorrect">Incorrecto. La respuesta correcta es: Sistema operativo integrado</div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+
