@@ -10,7 +10,7 @@ button {
 }
 
 header .title {
-	background-color: #00bdca;
+	background-color: #20b9ff;
 	color: #393b3baf;
 	text-align: center;
 	padding: 5px;
@@ -24,7 +24,7 @@ header {
     align-items: center;
     padding: 20px 25px; /* Ajusta el padding para dar más espacio alrededor */
     background-color: #464646c4;
-    margin-top: 300px; /* Añade un margen superior para bajar todo el recuadro */
+    margin-top: 48px; /* Añade un margen superior para bajar todo el recuadro */
 }
 
 header div.countdown, header div.points {
@@ -57,7 +57,7 @@ header div.countdown, header div.points {
 
 .card {
 	background-color: red;
-	width: 700px;
+	width: 750px;
 	background-color: #c2d2ebb9;
 	margin: 100px auto 90px auto;
 	border-radius: 6px;
