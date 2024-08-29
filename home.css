@@ -452,7 +452,8 @@ input[type="checkbox"] {
 #btn-modal-5:checked ~ .container-modal,
 #btn-modal-6:checked ~ .container-modal,
 #btn-modal-7:checked ~ .container-modal,
-#btn-modal-8:checked ~ .container-modal{
+#btn-modal-8:checked ~ .container-modal,
+#btn-modal-9:checked ~ .container-modal{
 
     display: flex;
 }
@@ -464,7 +465,8 @@ input[type="checkbox"] {
 #btn-modal-5-cerrar:checked ~ .container-modal,
 #btn-modal-6-cerrar:checked ~ .container-modal,
 #btn-modal-7-cerrar:checked ~ .container-modal,
-#btn-modal-8-cerrar:checked ~ .container-moda{
+#btn-modal-8-cerrar:checked ~ .container-moda,
+#btn-modal-9-cerrar:checked ~ .container-moda{
     display: none;
 }
 

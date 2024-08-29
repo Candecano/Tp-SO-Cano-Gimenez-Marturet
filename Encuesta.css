@@ -11,7 +11,7 @@ button {
 
 header .title {
 	background-color: #20b9ff;
-	color: #393b3baf;
+	color: #393b3b;
 	text-align: center;
 	padding: 5px;
 }
@@ -23,16 +23,32 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 25px; /* Ajusta el padding para dar más espacio alrededor */
-    background-color: #464646c4;
+    background-color: #464646;
     margin-top: 48px; /* Añade un margen superior para bajar todo el recuadro */
 }
 
-header div.countdown, header div.points {
+header div.countdown{
     margin: 0;
     font-weight: bold;
-    color: #fff;
+    color: #464646c4;
     font-size: 26px;
 }
+
+
+
+header div.points{
+	margin: 0;
+    font-weight: bold;
+    color: #fff6f6c4;
+    font-size: 26px;
+}
+
+
+
+
+
+
+
 
 header div.points {
     transition: color 0.5s;
@@ -47,13 +63,27 @@ header div.points.animate.wrong {
 	color: #bf0000;
 }
 
-header div.countdown, header div.points {
+header div.countdown {
+	font-weight: bold;
+	margin: 10px;
+	color: #464646c4;
+	padding: 0px;
+	font-size: 26px;
+}
+
+
+header div.points{
 	font-weight: bold;
 	margin: 10px;
 	color: #ffffff;
 	padding: 0px;
 	font-size: 26px;
 }
+
+
+
+
+
 
 .card {
 	background-color: red;

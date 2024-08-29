@@ -70,7 +70,7 @@ var points,
     pointsPerQuestion,
     currentQuestion,
     questionTimer,
-    timeForQuestion = 30, // segundos
+    timeForQuestion = 300, // segundos
     timeLeftForQuestion; 
 
 // Manipulación de elementos con jQuery.
